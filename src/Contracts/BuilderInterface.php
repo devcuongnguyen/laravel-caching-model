@@ -1,6 +1,6 @@
 <?php
 
-namespace Hacoidev\CachingModel\Contracts;
+namespace devcuongnguyen\CachingModel\Contracts;
 
 use Illuminate\Support\Collection;
 use Closure;

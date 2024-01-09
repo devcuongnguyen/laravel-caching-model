@@ -1,8 +1,8 @@
 <?php
 
-namespace Hacoidev\CachingModel\Contracts;
+namespace devcuongnguyen\CachingModel\Contracts;
 
-use \Hacoidev\CachingModel\Contracts\BuilderInterface;
+use \devcuongnguyen\CachingModel\Contracts\BuilderInterface;
 
 interface Cacheable
 {

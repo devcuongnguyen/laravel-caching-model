@@ -1,11 +1,11 @@
 <?php
 
-namespace Hacoidev\CachingModel;
+namespace devcuongnguyen\CachingModel;
 
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Str;
-use \Hacoidev\CachingModel\Contracts\BuilderInterface;
-use Hacoidev\CachingModel\Contracts\Cacheable;
+use \devcuongnguyen\CachingModel\Contracts\BuilderInterface;
+use devcuongnguyen\CachingModel\Contracts\Cacheable;
 
 trait HasCache
 {

@@ -5,8 +5,8 @@
 # Usage
 1. Implement Cacheable interface then use HasCache trait:
 ```php
-use Hacoidev\CachingModel\Contracts\Cacheable;
-use Hacoidev\CachingModel\HasCache;
+use devcuongnguyen\CachingModel\Contracts\Cacheable;
+use devcuongnguyen\CachingModel\HasCache;
 
 class Setting extends Model implements Cacheable
 {

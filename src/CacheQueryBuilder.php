@@ -1,13 +1,13 @@
 <?php
 
-namespace Hacoidev\CachingModel;
+namespace devcuongnguyen\CachingModel;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Cache;
-use \Hacoidev\CachingModel\Contracts\BuilderInterface;
+use \devcuongnguyen\CachingModel\Contracts\BuilderInterface;
 use Closure;
-use \Hacoidev\CachingModel\Contracts\Cacheable;
-use \Hacoidev\CachingModel\Exceptions\UnsupportedModelException;
+use \devcuongnguyen\CachingModel\Contracts\Cacheable;
+use \devcuongnguyen\CachingModel\Exceptions\UnsupportedModelException;
 
 class CacheQueryBuilder implements BuilderInterface
 {
