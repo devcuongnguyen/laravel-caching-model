@@ -1,22 +1,22 @@
 {
-    "name": "devcuongnguyen/laravel-caching-model",
-    "description": "A simple cache library for laravel eloquent model",
-    "type": "library",
-    "require": {
-        "php": "^7.0|^8.0",
-        "laravel/framework": "^6.0|^7.0|^8.0"
-    },
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "devcuongnguyen\\CachingModel\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "devcuongnguyen",
-            "email": "dev.cuongnguyen@gmail.com"
-        }
-    ],
-    "minimum-stability": "stable"
+  "name": "devcuongnguyen/laravel-caching-model",
+  "description": "A simple cache library for laravel eloquent model",
+  "type": "library",
+  "require": {
+    "php": "^7.0|^8.0",
+    "laravel/framework": "^6.0|^7.0|^8.0|^9.0|^10.0"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "devcuongnguyen\\CachingModel\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "devcuongnguyen",
+      "email": "dev.cuongnguyen@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable"
 }
